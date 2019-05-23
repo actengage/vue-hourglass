@@ -2,7 +2,7 @@
 
 An SVG and CSS animated hourglass conveniently wrapped up in a Vue component.
 
-![Screenshot](./img/hourglass.png)
+![Screenshot](./img/hourglass.gif)
 
 ## Installation
 
