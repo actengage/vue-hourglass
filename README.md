@@ -8,15 +8,25 @@ An SVG and CSS animated hourglass conveniently wrapped up in a Vue component.
 
     npm install vue-hourglass --save
 
-## Basic Usage
+## Basic Example
+
+    <!-- in your main.js or equivelent -->
+    import Hourglass from 'vue-hourglass';
+
+    Vue.use(Hourglass);
+
+    <!-- in the template... -->
+    <hourglass animated />
+
+## Examples
 
     <!-- Animated Examples -->
-    <hourglass />
-    <hourglass label="Loading..." />
+    <hourglass animated />
+    <hourglass label="Loading..." animated />
 
     <!-- Static Examples -->
-    <hourglass :animate="false" label="Empty" empty />
-    <hourglass :animate="false" label="Full" full />
-    <hourglass :animate="false" label="Start" start />
-    <hourglass :animate="false" label="Half" half />
-    <hourglass :animate="false" label="End" end />
+    <hourglass label="Empty" empty />
+    <hourglass label="Full" full />
+    <hourglass label="Start" start />
+    <hourglass label="Half" half />
+    <hourglass label="End" end />
