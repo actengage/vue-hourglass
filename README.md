@@ -20,13 +20,13 @@ An SVG and CSS animated hourglass conveniently wrapped up in a Vue component.
 
 ## Examples
 
-    <!-- Animated Examples -->
-    <hourglass animated />
-    <hourglass label="Loading..." animated />
-
     <!-- Static Examples -->
     <hourglass label="Empty" empty />
     <hourglass label="Full" full />
     <hourglass label="Start" start />
     <hourglass label="Half" half />
     <hourglass label="End" end />
+
+    <!-- Animated Examples -->
+    <hourglass animated />
+    <hourglass label="Loading..." animated />
