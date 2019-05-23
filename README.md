@@ -16,7 +16,7 @@ An SVG and CSS animated hourglass conveniently wrapped up in a Vue component.
     Vue.use(Hourglass);
 
     <!-- in the template... -->
-    <hourglass animated />
+    <hourglass animate />
 
 ## Examples
 
@@ -28,5 +28,5 @@ An SVG and CSS animated hourglass conveniently wrapped up in a Vue component.
     <hourglass label="End" end />
 
     <!-- Animated Examples -->
-    <hourglass animated />
-    <hourglass label="Loading..." animated />
+    <hourglass animate />
+    <hourglass label="Loading..."  />

@@ -221,7 +221,6 @@ export default {
     } 
     
     &:not(.hourglass-animate) {
-    
         .hourglass-empty,
         .hourglass-start,
         .hourglass-half,
@@ -236,6 +235,16 @@ export default {
         &.hourglass-end .hourglass-end,
         &.hourglass-full .hourglass-full {
             opacity: 1;
+        }
+
+        &:not(.hourglass-empty),
+        &:not(.hourglass-start),
+        &:not(.hourglass-half),
+        &:not(.hourglass-end),
+        &:not(.hourglass-full) {
+            .hourglass-half {
+                opacity: 1;
+            }
         }
     }
 }
