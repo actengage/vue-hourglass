@@ -1,7 +1,7 @@
 {
   "name": "vue-hourglass",
   "description": "A animated hour glass Vue component.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "module": "./src/index.js",
   "main": "./dist/VueHourglass.umd.min.js",
   "scripts": {
