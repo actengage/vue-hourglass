@@ -2,19 +2,19 @@
     <div class="hourglass" :class="classes" :style="{animationDuration: `${this.duration}ms`}">
         <div class="hourglass-icon">
             <div class="hourglass-empty">
-                <icon :icon="['far', 'hourglass']" />
+                <icon :icon="['far', 'hourglass']" :size="size" />
             </div>
             <div class="hourglass-full">
-                <icon icon="hourglass" />
+                <icon icon="hourglass" :size="size" />
             </div>
             <div class="hourglass-start">
-                <icon icon="hourglass-start" />
+                <icon icon="hourglass-start" :size="size" />
             </div>
             <div class="hourglass-half">
-                <icon icon="hourglass-half" />
+                <icon icon="hourglass-half" :size="size" />
             </div>
             <div class="hourglass-end">
-                <icon icon="hourglass-end" />
+                <icon icon="hourglass-end" :size="size" />
             </div>
         </div>
         <div v-if="label" class="hourglass-label">{{ label }}</div>
@@ -66,6 +66,8 @@ export default {
         label: {
             type: String
         },
+        
+        size: String
 
     },
 

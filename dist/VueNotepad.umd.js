@@ -3096,12 +3096,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"606567ed-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Hourglass.vue?vue&type=template&id=1d07af4d&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"hourglass",class:_vm.classes,style:({animationDuration: ((this.duration) + "ms")})},[_c('div',{staticClass:"hourglass-icon"},[_c('div',{staticClass:"hourglass-empty"},[_c('icon',{attrs:{"icon":['far', 'hourglass']}})],1),_c('div',{staticClass:"hourglass-full"},[_c('icon',{attrs:{"icon":"hourglass"}})],1),_c('div',{staticClass:"hourglass-start"},[_c('icon',{attrs:{"icon":"hourglass-start"}})],1),_c('div',{staticClass:"hourglass-half"},[_c('icon',{attrs:{"icon":"hourglass-half"}})],1),_c('div',{staticClass:"hourglass-end"},[_c('icon',{attrs:{"icon":"hourglass-end"}})],1)]),(_vm.label)?_c('div',{staticClass:"hourglass-label"},[_vm._v(_vm._s(_vm.label))]):_vm._e()])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b5a1b546-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Hourglass.vue?vue&type=template&id=e7988af0&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"hourglass",class:_vm.classes,style:({animationDuration: ((this.duration) + "ms")})},[_c('div',{staticClass:"hourglass-icon"},[_c('div',{staticClass:"hourglass-empty"},[_c('icon',{attrs:{"icon":['far', 'hourglass'],"size":_vm.size}})],1),_c('div',{staticClass:"hourglass-full"},[_c('icon',{attrs:{"icon":"hourglass","size":_vm.size}})],1),_c('div',{staticClass:"hourglass-start"},[_c('icon',{attrs:{"icon":"hourglass-start","size":_vm.size}})],1),_c('div',{staticClass:"hourglass-half"},[_c('icon',{attrs:{"icon":"hourglass-half","size":_vm.size}})],1),_c('div',{staticClass:"hourglass-end"},[_c('icon',{attrs:{"icon":"hourglass-end","size":_vm.size}})],1)]),(_vm.label)?_c('div',{staticClass:"hourglass-label"},[_vm._v(_vm._s(_vm.label))]):_vm._e()])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/Hourglass.vue?vue&type=template&id=1d07af4d&
+// CONCATENATED MODULE: ./src/Hourglass.vue?vue&type=template&id=e7988af0&
 
 // EXTERNAL MODULE: ./node_modules/@fortawesome/fontawesome-svg-core/index.es.js
 var index_es = __webpack_require__("ecee");
@@ -9711,7 +9711,8 @@ index_es["c" /* library */].add(index_es_faHourglass);
     },
     label: {
       type: String
-    }
+    },
+    size: String
   },
   methods: {
     startAnimation() {
